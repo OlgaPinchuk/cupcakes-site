@@ -1,0 +1,56 @@
+.main-footer {
+  background: var(--color-dark-blue);
+  color: var(--color-white);
+}
+
+.footer-content-wrapper {
+  max-width: 80%;
+  margin: 1.5rem auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.menu-items {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.menu-items a {
+  color: var(--color-white);
+}
+
+.menu-items a:hover {
+  color: var(--color-pink);
+}
+
+.menu-items li {
+  margin-bottom: 0.25rem;
+  font-size: 0.5rem;
+}
+
+.contact-header {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.icon {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+}
+.mail {
+  background: url("../../media/images/common/icon-email.png") no-repeat;
+  background-size: contain;
+}
+
+.facebook {
+  background: url("../../media/images/common/icon-facebook.png") no-repeat;
+  background-size: contain;
+}
+
+.instagram {
+  background: url("../../media/images/common/icon-instagram.png") no-repeat;
+  background-size: contain;
+}

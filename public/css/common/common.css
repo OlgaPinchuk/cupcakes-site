@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  height: 100vh;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: 400;
+  color: var(--color-grey);
+  background-color: var(--color-white);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-grey);
+}
+
+/* 1 rem for different screen dimensions */
+
+@media (min-width: 767px) {
+  html {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1023px) {
+  html {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1201px) {
+  html {
+    font-size: 32px;
+  }
+}

@@ -1,0 +1,13 @@
+:root {
+  /* Common colors */
+  --color-white: #ffffff;
+
+  /* Text colors */
+  --color-grey: #414141;
+  --color-pink: #f61f5e;
+
+  /* Background colors */
+  --color-light-pink: #ffdada;
+  --color-dark-blue: #31326f;
+  --color-light-green: #dbf6e9;
+}

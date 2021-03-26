@@ -1,0 +1,66 @@
+main {
+  background-color: var(--color-light-green);
+}
+
+.submenu {
+  margin: 1rem auto;
+  width: 80vw;
+  font-style: italic;
+}
+
+.submenu ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.catalogue {
+  margin: 2rem auto;
+  width: 90vw;
+}
+
+.catalogue h2 {
+  margin-bottom: 0.75rem;
+  font-weight: 400;
+}
+
+.cakes {
+  height: auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.product {
+  padding: 1rem;
+  background-color: var(--color-white);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product img {
+  height: 100px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.product figcaption {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-name {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.price {
+  font-size: 0.65rem;
+}
+
+@media (min-width: 1023px) {
+  .cakes {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

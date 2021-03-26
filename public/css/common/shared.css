@@ -1,0 +1,8 @@
+/* Globals */
+@import "./common.css";
+@import "./variables.css";
+@import "./fonts.css";
+
+/* Specics */
+@import "./header.css";
+@import "./footer.css";
