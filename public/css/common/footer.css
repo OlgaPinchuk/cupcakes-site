@@ -54,3 +54,10 @@
   background: url("../../media/images/common/icon-instagram.png") no-repeat;
   background-size: contain;
 }
+
+@media (min-width: 767px) {
+  .footer-content-wrapper {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+}
